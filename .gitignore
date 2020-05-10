@@ -11,13 +11,26 @@
 .mtj.tmp/
 
 # Package Files #
+*.7z
+*.dmg
+*.gz
+*.iso
 *.jar
 *.war
 *.nar
 *.ear
+*.sar
 *.zip
 *.tar.gz
 *.rar
 
+#eclipse_project_file
+.settings/
+.classpath
+.project
+
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+/bin/
